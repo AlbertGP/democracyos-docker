@@ -1,0 +1,8 @@
+democracyos:
+  build: .
+  ports:
+   - "80:80"
+  links:
+   - mongo
+mongo:
+  image: mongo
